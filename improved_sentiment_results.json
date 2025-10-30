@@ -1,0 +1,134 @@
+{
+  "model_version": "2.0_improved",
+  "improvements": [
+    "Weighted sentiment lexicon (48 words)",
+    "Negation handling",
+    "Intensifier/diminisher detection",
+    "Confidence scoring"
+  ],
+  "results": [
+    {
+      "review_id": 1,
+      "text": "I absolutely love my new iPhone 14 Pro from Apple! The camera quality is amazing.",
+      "brands": [
+        "iPhone",
+        "Apple"
+      ],
+      "old_sentiment": "POSITIVE",
+      "new_sentiment": "POSITIVE",
+      "new_score": 6.0,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 2,
+      "text": "The Samsung Galaxy S23 is a terrible phone. Battery life is disappointing.",
+      "brands": [
+        "Samsung",
+        "Galaxy"
+      ],
+      "old_sentiment": "NEGATIVE",
+      "new_sentiment": "NEGATIVE",
+      "new_score": 3.5,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 3,
+      "text": "Just bought Nike Air Max sneakers and they are incredibly comfortable!",
+      "brands": [
+        "Nike",
+        "Nike Air Max"
+      ],
+      "old_sentiment": "POSITIVE",
+      "new_sentiment": "POSITIVE",
+      "new_score": 2.0,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 4,
+      "text": "My Sony WH-1000XM5 headphones have excellent noise cancellation. Very happy with this purchase.",
+      "brands": [
+        "Sony"
+      ],
+      "old_sentiment": "POSITIVE",
+      "new_sentiment": "POSITIVE",
+      "new_score": 4.25,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 5,
+      "text": "The Dell XPS 15 laptop is overpriced and the keyboard feels cheap.",
+      "brands": [
+        "Dell"
+      ],
+      "old_sentiment": "NEGATIVE",
+      "new_sentiment": "NEGATIVE",
+      "new_score": 2.0,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 6,
+      "text": "Adidas Ultraboost running shoes are fantastic! Best running shoes I've ever owned.",
+      "brands": [
+        "Adidas"
+      ],
+      "old_sentiment": "POSITIVE",
+      "new_sentiment": "POSITIVE",
+      "new_score": 3.5,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 7,
+      "text": "Disappointed with the Microsoft Surface Pro 9. Too many bugs and crashes.",
+      "brands": [
+        "Microsoft",
+        "the Microsoft Surface Pro",
+        "Surface"
+      ],
+      "old_sentiment": "NEGATIVE",
+      "new_sentiment": "NEGATIVE",
+      "new_score": 4.0,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 8,
+      "text": "The Canon EOS R6 camera from Canon is absolutely brilliant for photography!",
+      "brands": [
+        "Canon"
+      ],
+      "old_sentiment": "POSITIVE",
+      "new_sentiment": "POSITIVE",
+      "new_score": 4.0,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 9,
+      "text": "Bought a MacBook Pro from Apple and it's worth every penny. Superb performance!",
+      "brands": [
+        "MacBook",
+        "Apple"
+      ],
+      "old_sentiment": "POSITIVE",
+      "new_sentiment": "POSITIVE",
+      "new_score": 3.0,
+      "confidence": 1.0
+    },
+    {
+      "review_id": 10,
+      "text": "The Google Pixel 7 is okay, nothing special but gets the job done.",
+      "brands": [
+        "Pixel",
+        "Google",
+        "The Google Pixel 7"
+      ],
+      "old_sentiment": "NEUTRAL",
+      "new_sentiment": "POSITIVE",
+      "new_score": 1.0,
+      "confidence": 1.0
+    }
+  ],
+  "fairness_metrics": {
+    "overall_positive_rate": 0.7,
+    "average_confidence": 1.0,
+    "sentiment_changes": 1
+  }
+}
